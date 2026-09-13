@@ -1,6 +1,378 @@
 {
   "samples": [
     {
+      "id": "CORE-1789279057488",
+      "project": "验证矿段C-mtzejwms",
+      "borehole": "ZK-C",
+      "coreBox": "BX-C",
+      "depth": "30-31m",
+      "owner": "陆川",
+      "status": "制片中",
+      "delivery": "未交付",
+      "slices": [
+        {
+          "id": "SL-C1-mtzejwms",
+          "method": "茜素红染色",
+          "observation": "",
+          "status": "切割",
+          "logs": [
+            {
+              "at": "2026-09-13T05:57:37.488Z",
+              "step": "取样",
+              "note": "创建初始切片任务"
+            },
+            {
+              "at": "2026-09-13T05:57:37.492Z",
+              "step": "染色",
+              "note": "推进到染色"
+            },
+            {
+              "at": "2026-09-13T05:57:37.496Z",
+              "step": "染色",
+              "note": "污染事件 EVT-MTZEJWPK 登记冻结（登记人 陆川）：退回方向校验"
+            },
+            {
+              "at": "2026-09-13T05:57:37.508Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEJWPK 解除（解除人 苏晴）：退回工序「切割」。依据：磨液污染需返工"
+            },
+            {
+              "at": "2026-09-13T05:57:37.510Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEJWPY 登记冻结（登记人 陆川）：续作回归"
+            },
+            {
+              "at": "2026-09-13T05:57:37.512Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEJWPY 解除（解除人 韩冰）：续作。依据：排查完成"
+            }
+          ]
+        },
+        {
+          "id": "SL-C2-mtzejwms",
+          "method": "未染色",
+          "observation": "",
+          "status": "切割",
+          "logs": [
+            {
+              "at": "2026-09-13T05:57:37.491Z",
+              "step": "取样",
+              "note": "新增切片任务"
+            },
+            {
+              "at": "2026-09-13T05:57:37.494Z",
+              "step": "研磨",
+              "note": "推进到研磨"
+            },
+            {
+              "at": "2026-09-13T05:57:37.496Z",
+              "step": "研磨",
+              "note": "污染事件 EVT-MTZEJWPK 登记冻结（登记人 陆川）：退回方向校验"
+            },
+            {
+              "at": "2026-09-13T05:57:37.508Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEJWPK 解除（解除人 苏晴）：退回工序「切割」。依据：磨液污染需返工"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CORE-1789279057446",
+      "project": "验证矿段B-mtzejwms",
+      "borehole": "ZK-B",
+      "coreBox": "BX-B",
+      "depth": "20-21m",
+      "owner": "陆川",
+      "status": "制片中",
+      "delivery": "未交付",
+      "slices": [
+        {
+          "id": "SL-B1-mtzejwms",
+          "method": "刚果红染色",
+          "observation": "",
+          "status": "切割",
+          "logs": [
+            {
+              "at": "2026-09-13T05:57:37.446Z",
+              "step": "取样",
+              "note": "创建初始切片任务"
+            },
+            {
+              "at": "2026-09-13T05:57:37.471Z",
+              "step": "研磨",
+              "note": "推进到研磨"
+            },
+            {
+              "at": "2026-09-13T05:57:37.475Z",
+              "step": "研磨",
+              "note": "污染事件 EVT-MTZEJWOZ 登记冻结（登记人 陆川）：研磨液污染"
+            },
+            {
+              "at": "2026-09-13T05:57:37.477Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEJWOZ 解除（解除人 苏晴）：退回工序「切割」。依据：更换批次磨液，需返工"
+            },
+            {
+              "at": "2026-09-13T05:57:37.480Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEJWP4 登记冻结（登记人 陆川）：二次污染排查"
+            },
+            {
+              "at": "2026-09-13T05:57:37.483Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEJWP4 解除（解除人 苏晴）：续作。依据：复检通过"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CORE-1789279057430",
+      "project": "验证矿段A-mtzejwms",
+      "borehole": "ZK-A",
+      "coreBox": "BX-A",
+      "depth": "10-11m",
+      "owner": "陆川",
+      "status": "已交付",
+      "delivery": "已交付",
+      "slices": [
+        {
+          "id": "SL-A1-mtzejwms",
+          "method": "茜素红染色",
+          "observation": "",
+          "status": "研磨",
+          "logs": [
+            {
+              "at": "2026-09-13T05:57:37.431Z",
+              "step": "取样",
+              "note": "创建初始切片任务"
+            },
+            {
+              "at": "2026-09-13T05:57:37.444Z",
+              "step": "切割",
+              "note": "粗切完成"
+            },
+            {
+              "at": "2026-09-13T05:57:37.450Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEJWOA 登记冻结（登记人 陆川）：染色剂交叉污染"
+            },
+            {
+              "at": "2026-09-13T05:57:37.462Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEJWOA 解除（解除人 苏晴）：续作。依据：复检合格，无污染残留"
+            },
+            {
+              "at": "2026-09-13T05:57:37.464Z",
+              "step": "研磨",
+              "note": "解除后继续制片"
+            }
+          ]
+        },
+        {
+          "id": "SL-A2-mtzejwms",
+          "method": "未染色",
+          "observation": "",
+          "status": "取样",
+          "logs": [
+            {
+              "at": "2026-09-13T05:57:37.440Z",
+              "step": "取样",
+              "note": "新增切片任务"
+            },
+            {
+              "at": "2026-09-13T05:57:37.450Z",
+              "step": "取样",
+              "note": "污染事件 EVT-MTZEJWOA 登记冻结（登记人 陆川）：染色剂交叉污染"
+            },
+            {
+              "at": "2026-09-13T05:57:37.462Z",
+              "step": "取样",
+              "note": "污染事件 EVT-MTZEJWOA 解除（解除人 苏晴）：续作。依据：复检合格，无污染残留"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CORE-1789278891958",
+      "project": "验证矿段C-mtzegcwi",
+      "borehole": "ZK-C",
+      "coreBox": "BX-C",
+      "depth": "30-31m",
+      "owner": "陆川",
+      "status": "制片中",
+      "delivery": "未交付",
+      "slices": [
+        {
+          "id": "SL-C1-mtzegcwi",
+          "method": "茜素红染色",
+          "observation": "",
+          "status": "切割",
+          "logs": [
+            {
+              "at": "2026-09-13T05:54:51.958Z",
+              "step": "取样",
+              "note": "创建初始切片任务"
+            },
+            {
+              "at": "2026-09-13T05:54:51.961Z",
+              "step": "染色",
+              "note": "推进到染色"
+            },
+            {
+              "at": "2026-09-13T05:54:51.964Z",
+              "step": "染色",
+              "note": "污染事件 EVT-MTZEGCZG 登记冻结（登记人 陆川）：退回方向校验"
+            },
+            {
+              "at": "2026-09-13T05:54:51.974Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEGCZG 解除（解除人 苏晴）：退回工序「切割」。依据：磨液污染需返工"
+            },
+            {
+              "at": "2026-09-13T05:54:51.981Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEGCZX 登记冻结（登记人 陆川）：续作回归"
+            },
+            {
+              "at": "2026-09-13T05:54:51.984Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEGCZX 解除（解除人 韩冰）：续作。依据：排查完成"
+            }
+          ]
+        },
+        {
+          "id": "SL-C2-mtzegcwi",
+          "method": "未染色",
+          "observation": "",
+          "status": "切割",
+          "logs": [
+            {
+              "at": "2026-09-13T05:54:51.959Z",
+              "step": "取样",
+              "note": "新增切片任务"
+            },
+            {
+              "at": "2026-09-13T05:54:51.962Z",
+              "step": "研磨",
+              "note": "推进到研磨"
+            },
+            {
+              "at": "2026-09-13T05:54:51.964Z",
+              "step": "研磨",
+              "note": "污染事件 EVT-MTZEGCZG 登记冻结（登记人 陆川）：退回方向校验"
+            },
+            {
+              "at": "2026-09-13T05:54:51.974Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEGCZG 解除（解除人 苏晴）：退回工序「切割」。依据：磨液污染需返工"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CORE-1789278891917",
+      "project": "验证矿段B-mtzegcwi",
+      "borehole": "ZK-B",
+      "coreBox": "BX-B",
+      "depth": "20-21m",
+      "owner": "陆川",
+      "status": "制片中",
+      "delivery": "未交付",
+      "slices": [
+        {
+          "id": "SL-B1-mtzegcwi",
+          "method": "刚果红染色",
+          "observation": "",
+          "status": "取样",
+          "logs": [
+            {
+              "at": "2026-09-13T05:54:51.918Z",
+              "step": "取样",
+              "note": "创建初始切片任务"
+            },
+            {
+              "at": "2026-09-13T05:54:51.945Z",
+              "step": "取样",
+              "note": "污染事件 EVT-MTZEGCYX 登记冻结（登记人 陆川）：研磨液污染"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "CORE-1789278891897",
+      "project": "验证矿段A-mtzegcwi",
+      "borehole": "ZK-A",
+      "coreBox": "BX-A",
+      "depth": "10-11m",
+      "owner": "陆川",
+      "status": "已交付",
+      "delivery": "已交付",
+      "slices": [
+        {
+          "id": "SL-A1-mtzegcwi",
+          "method": "茜素红染色",
+          "observation": "",
+          "status": "研磨",
+          "logs": [
+            {
+              "at": "2026-09-13T05:54:51.897Z",
+              "step": "取样",
+              "note": "创建初始切片任务"
+            },
+            {
+              "at": "2026-09-13T05:54:51.915Z",
+              "step": "切割",
+              "note": "粗切完成"
+            },
+            {
+              "at": "2026-09-13T05:54:51.920Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEGCY8 登记冻结（登记人 陆川）：染色剂交叉污染"
+            },
+            {
+              "at": "2026-09-13T05:54:51.935Z",
+              "step": "切割",
+              "note": "污染事件 EVT-MTZEGCY8 解除（解除人 苏晴）：续作。依据：复检合格，无污染残留"
+            },
+            {
+              "at": "2026-09-13T05:54:51.939Z",
+              "step": "研磨",
+              "note": "解除后继续制片"
+            }
+          ]
+        },
+        {
+          "id": "SL-A2-mtzegcwi",
+          "method": "未染色",
+          "observation": "",
+          "status": "取样",
+          "logs": [
+            {
+              "at": "2026-09-13T05:54:51.913Z",
+              "step": "取样",
+              "note": "新增切片任务"
+            },
+            {
+              "at": "2026-09-13T05:54:51.920Z",
+              "step": "取样",
+              "note": "污染事件 EVT-MTZEGCY8 登记冻结（登记人 陆川）：染色剂交叉污染"
+            },
+            {
+              "at": "2026-09-13T05:54:51.935Z",
+              "step": "取样",
+              "note": "污染事件 EVT-MTZEGCY8 解除（解除人 苏晴）：续作。依据：复检合格，无污染残留"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "CORE-1789277749512",
       "project": "验证矿段B-mtzdrvfe",
       "borehole": "ZK-B",
@@ -145,6 +517,202 @@
     }
   ],
   "events": [
+    {
+      "id": "EVT-MTZEJWPY",
+      "eventNo": "EVT-VERIFY6-mtzejwms",
+      "reason": "续作回归",
+      "handlingStep": "观察",
+      "slices": [
+        {
+          "sampleId": "CORE-1789279057488",
+          "sliceId": "SL-C1-mtzejwms"
+        }
+      ],
+      "registeredBy": "陆川",
+      "status": "已解除",
+      "createdAt": "2026-09-13T05:57:37.510Z",
+      "releasedBy": "韩冰",
+      "releaseBasis": "排查完成",
+      "resolution": "续作",
+      "returnStep": null,
+      "releasedAt": "2026-09-13T05:57:37.512Z"
+    },
+    {
+      "id": "EVT-MTZEJWPK",
+      "eventNo": "EVT-VERIFY5-mtzejwms",
+      "reason": "退回方向校验",
+      "handlingStep": "切割",
+      "slices": [
+        {
+          "sampleId": "CORE-1789279057488",
+          "sliceId": "SL-C1-mtzejwms"
+        },
+        {
+          "sampleId": "CORE-1789279057488",
+          "sliceId": "SL-C2-mtzejwms"
+        }
+      ],
+      "registeredBy": "陆川",
+      "status": "已解除",
+      "createdAt": "2026-09-13T05:57:37.496Z",
+      "releasedBy": "苏晴",
+      "releaseBasis": "磨液污染需返工",
+      "resolution": "退回",
+      "returnStep": "切割",
+      "releasedAt": "2026-09-13T05:57:37.508Z"
+    },
+    {
+      "id": "EVT-MTZEJWP4",
+      "eventNo": "EVT-VERIFY4-mtzejwms",
+      "reason": "二次污染排查",
+      "handlingStep": "观察",
+      "slices": [
+        {
+          "sampleId": "CORE-1789279057446",
+          "sliceId": "SL-B1-mtzejwms"
+        }
+      ],
+      "registeredBy": "陆川",
+      "status": "已解除",
+      "createdAt": "2026-09-13T05:57:37.480Z",
+      "releasedBy": "苏晴",
+      "releaseBasis": "复检通过",
+      "resolution": "续作",
+      "returnStep": null,
+      "releasedAt": "2026-09-13T05:57:37.483Z"
+    },
+    {
+      "id": "EVT-MTZEJWOZ",
+      "eventNo": "EVT-VERIFY3-mtzejwms",
+      "reason": "研磨液污染",
+      "handlingStep": "研磨",
+      "slices": [
+        {
+          "sampleId": "CORE-1789279057446",
+          "sliceId": "SL-B1-mtzejwms"
+        }
+      ],
+      "registeredBy": "陆川",
+      "status": "已解除",
+      "createdAt": "2026-09-13T05:57:37.475Z",
+      "releasedBy": "苏晴",
+      "releaseBasis": "更换批次磨液，需返工",
+      "resolution": "退回",
+      "returnStep": "切割",
+      "releasedAt": "2026-09-13T05:57:37.477Z"
+    },
+    {
+      "id": "EVT-MTZEJWOA",
+      "eventNo": "EVT-VERIFY-mtzejwms",
+      "reason": "染色剂交叉污染",
+      "handlingStep": "研磨",
+      "slices": [
+        {
+          "sampleId": "CORE-1789279057430",
+          "sliceId": "SL-A1-mtzejwms"
+        },
+        {
+          "sampleId": "CORE-1789279057430",
+          "sliceId": "SL-A2-mtzejwms"
+        }
+      ],
+      "registeredBy": "陆川",
+      "status": "已解除",
+      "createdAt": "2026-09-13T05:57:37.450Z",
+      "releasedBy": "苏晴",
+      "releaseBasis": "复检合格，无污染残留",
+      "resolution": "续作",
+      "returnStep": null,
+      "releasedAt": "2026-09-13T05:57:37.462Z"
+    },
+    {
+      "id": "EVT-MTZEGCZX",
+      "eventNo": "EVT-VERIFY6-mtzegcwi",
+      "reason": "续作回归",
+      "handlingStep": "观察",
+      "slices": [
+        {
+          "sampleId": "CORE-1789278891958",
+          "sliceId": "SL-C1-mtzegcwi"
+        }
+      ],
+      "registeredBy": "陆川",
+      "status": "已解除",
+      "createdAt": "2026-09-13T05:54:51.981Z",
+      "releasedBy": "韩冰",
+      "releaseBasis": "排查完成",
+      "resolution": "续作",
+      "returnStep": null,
+      "releasedAt": "2026-09-13T05:54:51.984Z"
+    },
+    {
+      "id": "EVT-MTZEGCZG",
+      "eventNo": "EVT-VERIFY5-mtzegcwi",
+      "reason": "退回方向校验",
+      "handlingStep": "切割",
+      "slices": [
+        {
+          "sampleId": "CORE-1789278891958",
+          "sliceId": "SL-C1-mtzegcwi"
+        },
+        {
+          "sampleId": "CORE-1789278891958",
+          "sliceId": "SL-C2-mtzegcwi"
+        }
+      ],
+      "registeredBy": "陆川",
+      "status": "已解除",
+      "createdAt": "2026-09-13T05:54:51.964Z",
+      "releasedBy": "苏晴",
+      "releaseBasis": "磨液污染需返工",
+      "resolution": "退回",
+      "returnStep": "切割",
+      "releasedAt": "2026-09-13T05:54:51.974Z"
+    },
+    {
+      "id": "EVT-MTZEGCYX",
+      "eventNo": "EVT-VERIFY3-mtzegcwi",
+      "reason": "研磨液污染",
+      "handlingStep": "研磨",
+      "slices": [
+        {
+          "sampleId": "CORE-1789278891917",
+          "sliceId": "SL-B1-mtzegcwi"
+        }
+      ],
+      "registeredBy": "陆川",
+      "status": "开放",
+      "createdAt": "2026-09-13T05:54:51.945Z",
+      "releasedBy": null,
+      "releaseBasis": null,
+      "resolution": null,
+      "returnStep": null,
+      "releasedAt": null
+    },
+    {
+      "id": "EVT-MTZEGCY8",
+      "eventNo": "EVT-VERIFY-mtzegcwi",
+      "reason": "染色剂交叉污染",
+      "handlingStep": "研磨",
+      "slices": [
+        {
+          "sampleId": "CORE-1789278891897",
+          "sliceId": "SL-A1-mtzegcwi"
+        },
+        {
+          "sampleId": "CORE-1789278891897",
+          "sliceId": "SL-A2-mtzegcwi"
+        }
+      ],
+      "registeredBy": "陆川",
+      "status": "已解除",
+      "createdAt": "2026-09-13T05:54:51.920Z",
+      "releasedBy": "苏晴",
+      "releaseBasis": "复检合格，无污染残留",
+      "resolution": "续作",
+      "returnStep": null,
+      "releasedAt": "2026-09-13T05:54:51.935Z"
+    },
     {
       "id": "EVT-MTZDRVHI",
       "eventNo": "EVT-VERIFY4-mtzdrvfe",

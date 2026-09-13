@@ -421,7 +421,21 @@ const server = http.createServer(async (req, res) => {
         if (releasedBy === event.registeredBy) return { status: 409, data: { error: "same_person", message: "解除人不能与登记人相同" } };
         if (!basis) return { status: 400, data: { error: "basis_required", message: "请填写解除依据" } };
         if (!resolutions.includes(resolution)) return { status: 400, data: { error: "resolution_invalid", message: "请选择续作或退回" } };
-        if (resolution === "退回" && !taskSteps.includes(returnStep)) return { status: 400, data: { error: "return_step_invalid", message: "退回时必须选择指定工序" } };
+        if (resolution === "退回") {
+          if (!taskSteps.includes(returnStep)) return { status: 400, data: { error: "return_step_invalid", message: "退回时必须选择指定工序" } };
+          // 退回只能沿工序链向回走：每张关联切片按各自当前位置分别判断，任一不满足则整单拒绝
+          const returnIdx = taskSteps.indexOf(returnStep);
+          const notBackward = [];
+          for (const target of event.slices) {
+            const { slice } = findSlice(db, target.sampleId, target.sliceId);
+            if (!slice) continue;
+            if (returnIdx >= taskSteps.indexOf(slice.status)) notBackward.push({ sliceId: target.sliceId, current: slice.status });
+          }
+          if (notBackward.length) {
+            const detail = notBackward.map(item => `${item.sliceId}（当前 ${item.current}）`).join("、");
+            return { status: 400, data: { error: "return_step_not_backward", message: `退回目标工序必须早于切片当前工序：${detail}`, notBackward } };
+          }
+        }
         event.status = "已解除";
         event.releasedBy = releasedBy;
         event.releaseBasis = basis;
